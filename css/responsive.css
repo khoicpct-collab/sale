@@ -1,0 +1,169 @@
+/* ===== RESPONSIVE DESIGN ===== */
+
+/* Tablet Devices (768px - 1024px) */
+@media (max-width: 1024px) {
+    .container {
+        padding: 0 15px;
+    }
+    
+    .header-top {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    
+    .search-box {
+        width: 300px;
+    }
+    
+    .banner {
+        height: 450px;
+    }
+    
+    .banner-content h2 {
+        font-size: 2.5rem;
+    }
+    
+    .category-grid,
+    .product-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    
+    .footer-content {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+}
+
+/* Mobile Devices (576px - 768px) */
+@media (max-width: 768px) {
+    .header-top {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .logo img {
+        height: 40px;
+    }
+    
+    .search-box {
+        width: 100%;
+        max-width: 400px;
+    }
+    
+    .header-actions {
+        gap: 15px;
+    }
+    
+    .navbar ul {
+        flex-wrap: wrap;
+    }
+    
+    .navbar li a {
+        padding: 12px 15px;
+        font-size: 13px;
+    }
+    
+    .banner {
+        height: 350px;
+    }
+    
+    .banner-content {
+        left: 5%;
+        text-align: center;
+    }
+    
+    .banner-content h2 {
+        font-size: 2rem;
+    }
+    
+    .banner-content p {
+        font-size: 1rem;
+    }
+    
+    .section-title {
+        font-size: 2rem;
+    }
+    
+    .category-grid,
+    .product-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    
+    .category-item img,
+    .product-card img {
+        height: 250px;
+    }
+    
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        text-align: center;
+    }
+    
+    .social-links {
+        justify-content: center;
+    }
+}
+
+/* Small Mobile Devices (under 576px) */
+@media (max-width: 576px) {
+    .container {
+        padding: 0 10px;
+    }
+    
+    .banner {
+        height: 300px;
+    }
+    
+    .banner-content h2 {
+        font-size: 1.5rem;
+    }
+    
+    .btn-primary {
+        padding: 12px 25px;
+        font-size: 0.9rem;
+    }
+    
+    .section-title {
+        font-size: 1.5rem;
+    }
+    
+    .categories,
+    .products {
+        padding: 40px 0;
+    }
+    
+    .product-info {
+        padding: 15px;
+    }
+    
+    .footer {
+        padding: 40px 0 15px;
+    }
+}
+
+/* Large Desktop (above 1440px) */
+@media (min-width: 1440px) {
+    .container {
+        max-width: 1400px;
+    }
+    
+    .banner {
+        height: 700px;
+    }
+    
+    .banner-content h2 {
+        font-size: 4rem;
+    }
+}
+
+/* Print Styles */
+@media print {
+    .header-actions,
+    .search-box,
+    .btn-primary {
+        display: none;
+    }
+}
