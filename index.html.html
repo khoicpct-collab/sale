@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>An Phước - Thời Trang Cao Cấp</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-top">
+                <div class="logo">
+                    <img src="images/logo.png" alt="An Phước">
+                </div>
+                <div class="search-box">
+                    <input type="text" placeholder="Tìm kiếm sản phẩm...">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+                <div class="header-actions">
+                    <div class="account">
+                        <i class="fas fa-user"></i>
+                        <span>Tài khoản</span>
+                    </div>
+                    <div class="cart">
+                        <i class="fas fa-shopping-bag"></i>
+                        <span class="cart-count">0</span>
+                    </div>
+                </div>
+            </div>
+            
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">TRANG CHỦ</a></li>
+                    <li><a href="#">NAM</a></li>
+                    <li><a href="#">NỮ</a></li>
+                    <li><a href="#">TRẺ EM</a></li>
+                    <li><a href="#">KHUYẾN MÃI</a></li>
+                    <li><a href="#">BỘ SƯU TẬP</a></li>
+                    <li><a href="#">TIN TỨC</a></li>
+                    <li><a href="#">LIÊN HỆ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Banner Slider -->
+    <section class="banner">
+        <div class="slider">
+            <div class="slide active">
+                <img src="images/banners/banner1.jpg" alt="Banner 1">
+                <div class="banner-content">
+                    <h2>BỘ SƯU TẬP MỚI</h2>
+                    <p>Khám phá xu hướng thời trang mới nhất</p>
+                    <button class="btn-primary">MUA NGAY</button>
+                </div>
+            </div>
+            <!-- Thêm các slide khác -->
+        </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="categories">
+        <div class="container">
+            <h2 class="section-title">DANH MỤC SẢN PHẨM</h2>
+            <div class="category-grid">
+                <div class="category-item">
+                    <img src="images/categories/men.jpg" alt="Thời trang Nam">
+                    <h3>THỜI TRANG NAM</h3>
+                </div>
+                <div class="category-item">
+                    <img src="images/categories/women.jpg" alt="Thời trang Nữ">
+                    <h3>THỜI TRANG NỮ</h3>
+                </div>
+                <div class="category-item">
+                    <img src="images/categories/kids.jpg" alt="Thời trang Trẻ em">
+                    <h3>THỜI TRANG TRẺ EM</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="products">
+        <div class="container">
+            <h2 class="section-title">SẢN PHẨM NỔI BẬT</h2>
+            <div class="product-grid" id="product-grid">
+                <!-- Products will be loaded by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>VỀ CHÚNG TÔI</h4>
+                    <p>An Phước - Thương hiệu thời trang cao cấp</p>
+                </div>
+                <div class="footer-section">
+                    <h4>LIÊN HỆ</h4>
+                    <p>Hotline: 1800 1234</p>
+                    <p>Email: info@anphuoc.com</p>
+                </div>
+                <div class="footer-section">
+                    <h4>THEO DÕI CHÚNG TÔI</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/cart.js"></script>
+</body>
+</html>
